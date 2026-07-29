@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Putra Azari - Analisa Cloud VPS, Tracking, Signaling SS7, Horizontal Geography, dan Fisika Kuantum">
+    <title>Putra Azari | Analisa Teknologi & Sains</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-atom"></i>
+                <span>Putra Azari</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#gsm" class="nav-link">GSM</a>
+                <a href="#cloud" class="nav-link">Cloud VPS</a>
+                <a href="#tracking" class="nav-link">Tracking</a>
+                <a href="#ss7" class="nav-link">SS7</a>
+                <a href="#geography" class="nav-link">Geography</a>
+                <a href="#quantum" class="nav-link">Quantum</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-shield-halved"></i>
+                <span>Technology & Science Analyst</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="gradient-text">Putra Azari</span>
+            </h1>
+            <p class="hero-subtitle">
+                Menganalisis persimpangan antara 
+                <span class="typewriter" id="typewriter"></span>
+            </p>
+            <p class="hero-description">
+                Eksplorasi mendalam tentang GSM, Cloud VPS, Tracking, Signaling SS7, 
+                Horizontal Geography, dan Fisika Kuantum
+            </p>
+            <div class="hero-actions">
+                <a href="#gsm" class="btn btn-primary">
+                    Mulai Eksplorasi <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#quantum" class="btn btn-outline">
+                    Fisika Kuantum <i class="fas fa-microchip"></i>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="7">0</span>
+                    <span class="stat-label">Domain Analisis</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="100">0</span>
+                    <span class="stat-label">% Coverage</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="24">0</span>
+                    <span class="stat-label">/7 Monitoring</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="globe-container">
+                <div class="globe">
+                    <div class="globe-sphere"></div>
+                    <div class="globe-ring ring-1"></div>
+                    <div class="globe-ring ring-2"></div>
+                    <div class="globe-ring ring-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GSM Section -->
+    <section class="section" id="gsm">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-signal"></i>
+                </div>
+                <h2 class="section-title">GSM Network Analysis</h2>
+                <p class="section-desc">Global System for Mobile Communications — Arsitektur & Protokol</p>
+            </div>
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-tower-cell"></i>
+                    </div>
+                    <h3>BSS & NSS</h3>
+                    <p>Base Station Subsystem (BTS, BSC) dan Network Switching Subsystem (MSC, HLR, VLR) — tulang punggung jaringan GSM.</p>
+                    <div class="card-tags">
+                        <span>BTS</span>
+                        <span>BSC</span>
+                        <span>MSC</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-frequency"></i>
+                    </div>
+                    <h3>Frekuensi & Spektrum</h3>
+                    <p>GSM beroperasi pada pita 900 MHz, 1800 MHz, 850 MHz, dan 1900 MHz. Teknik FDMA/TDMA untuk multiple access.</p>
+                    <div class="card-tags">
+                        <span>900 MHz</span>
+                        <span>1800 MHz</span>
+                        <span>TDMA</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield"></i>
+                    </div>
+                    <h3>Keamanan GSM</h3>
+                    <p>A3, A5, dan A8 — algoritma autentikasi dan enkripsi. Kerentanan terhadap serangan SS7 dan intercept.</p>
+                    <div class="card-tags">
+                        <span>A5/1</span>
+                        <span>A3</span>
+                        <span>Krypto</span>
+                    </div>
+                </div>
+            </div>
+            <div class="section-diagram">
+                <h3>Arsitektur Jaringan GSM</h3>
+                <div class="diagram-gsm">
+                    <div class="diagram-node ms">MS<br><small>Mobile Station</small></div>
+                    <div class="diagram-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="diagram-node bts">BTS<br><small>Base Transceiver Station</small></div>
+                    <div class="diagram-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="diagram-node bsc">BSC<br><small>Base Station Controller</small></div>
+                    <div class="diagram-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="diagram-node msc">MSC<br><small>Mobile Switching Center</small></div>
+                    <div class="diagram-arrow down"><i class="fas fa-arrow-down"></i></div>
+                    <div class="diagram-node hlr">HLR/VLR</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud VPS Section -->
+    <section class="section section-dark" id="cloud">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-cloud"></i>
+                </div>
+                <h2 class="section-title">Cloud VPS Tracking</h2>
+                <p class="section-desc">Analisa Cloud Computing & Virtual Private Server untuk Tracking Infrastructure</p>
+            </div>
+            <div class="grid grid-3">
+                <div class="card card-glow">
+                    <div class="card-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Infrastruktur Cloud</h3>
+                    <p>VPS berbasis KVM, VMware, dan container. Auto-scaling, load balancing, distributed computing untuk tracking real-time.</p>
+                    <div class="card-tags">
+                        <span>KVM</span>
+                        <span>Docker</span>
+                        <span>K8s</span>
+                    </div>
+                </div>
+                <div class="card card-glow">
+                    <div class="card-icon">
+                        <i class="fas fa-location-dot"></i>
+                    </div>
+                    <h3>GPS Tracking Server</h3>
+                    <p>Server VPS untuk aggregasi data GPS, protokol tracker (GT06, TK103, etc.), penyimpanan trajectory, dan API geofencing.</p>
+                    <div class="card-tags">
+                        <span>GT06</span>
+                        <span>TCP</span>
+                        <span>API</span>
+                    </div>
+                </div>
+                <div class="card card-glow">
+                    <div class="card-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Pipeline</h3>
+                    <p>Ingest data tracking jutaan device per detik. Redis caching, PostgreSQL/PostGIS, Kafka streaming, real-time analytics.</p>
+                    <div class="card-tags">
+                        <span>Redis</span>
+                        <span>PostGIS</span>
+                        <span>Kafka</span>
+                    </div>
+                </div>
+            </div>
+            <div class="spec-box">
+                <h3><i class="fas fa-microchip"></i> VPS Recommendation for Tracking</h3>
+                <div class="spec-grid">
+                    <div class="spec-item">
+                        <span class="spec-label">CPU</span>
+                        <span class="spec-value">4-8 Cores</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">RAM</span>
+                        <span class="spec-value">8-32 GB</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Storage</span>
+                        <span class="spec-value">100GB NVMe</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Bandwidth</span>
+                        <span class="spec-value">Unlimited</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">OS</span>
+                        <span class="spec-value">Ubuntu 24.04</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Uptime</span>
+                        <span class="spec-value">99.99% SLA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tracking Section -->
+    <section class="section" id="tracking">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-satellite"></i>
+                </div>
+                <h2 class="section-title">Tracking Systems</h2>
+                <p class="section-desc">Sistem Pelacakan Real-Time berbasis GPS, IoT, dan Cloud Infrastructure</p>
+            </div>
+            <div class="grid grid-2">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-satellite-dish"></i>
+                    </div>
+                    <h3>GPS/GNSS Tracking</h3>
+                    <p>GPS, GLONASS, Galileo, BeiDou. Akurasi hingga sub-meter dengan RTK. Tracking kendaraan, aset, dan personel secara real-time.</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width:95%">
+                            <span>Akurasi 95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>IoT Based Tracking</h3>
+                    <p>LPWAN, LoRaWAN, NB-IoT untuk asset tracking dengan konsumsi daya rendah. Range hingga 15km dengan gateway LoRa.</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width:88%">
+                            <span>Coverage 88%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-3" style="margin-top: 2rem;">
+                <div class="card card-sm">
+                    <i class="fas fa-car"></i>
+                    <h4>Vehicle Tracking</h4>
+                    <p>Fleet management, route optimization, driver behavior analysis.</p>
+                </div>
+                <div class="card card-sm">
+                    <i class="fas fa-box"></i>
+                    <h4>Asset Tracking</h4>
+                    <p>Logistic, warehousing, cold chain monitoring.</p>
+                </div>
+                <div class="card card-sm">
+                    <i class="fas fa-person"></i>
+                    <h4>Personnel Tracking</h4>
+                    <p>Safety monitoring, lone worker protection, geofencing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SS7 Signaling Section -->
+    <section class="section section-dark" id="ss7">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-project-diagram"></i>
+                </div>
+                <h2 class="section-title">Signaling SS7</h2>
+                <p class="section-desc">Signaling System No. 7 — Protokol Pensinyalan Telekomunikasi Global</p>
+            </div>
+            <div class="ss7-layers">
+                <div class="layer-card">
+                    <div class="layer-level">L4</div>
+                    <div class="layer-content">
+                        <h4>TCAP, MAP, ISUP, SCCP</h4>
+                        <p>Application Layer — Layanan nilai tambah, roaming, SMS, call setup/teardown</p>
+                    </div>
+                </div>
+                <div class="layer-card">
+                    <div class="layer-level">L3</div>
+                    <div class="layer-content">
+                        <h4>MTP Level 3</h4>
+                        <p>Network Layer — Routing pesan, network management, congestion control</p>
+                    </div>
+                </div>
+                <div class="layer-card">
+                    <div class="layer-level">L2</div>
+                    <div class="layer-content">
+                        <h4>MTP Level 2</h4>
+                        <p>Data Link Layer — Signaling link, error detection FISU/LSSU/MSU</p>
+                    </div>
+                </div>
+                <div class="layer-card">
+                    <div class="layer-level">L1</div>
+                    <div class="layer-content">
+                        <h4>MTP Level 1</h4>
+                        <p>Physical Layer — T1/E1, 56/64 kbps signaling data links</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-2" style="margin-top: 2rem;">
+                <div class="card">
+                    <h3><i class="fas fa-shield-halved"></i> SS7 Security Analysis</h3>
+                    <p>Kerentanan protokol SS7 (MAP, CAMEL) terhadap location tracking, intercept panggilan, dan SMS interception. Mitigasi dengan SIGTRAN, IPSec, dan Sigtran Firewall.</p>
+                    <ul class="vuln-list">
+                        <li><i class="fas fa-triangle-exclamation"></i> Location Tracking via MAP ATI</li>
+                        <li><i class="fas fa-triangle-exclamation"></i> SMS Interception via MAP SRI</li>
+                        <li><i class="fas fa-triangle-exclamation"></i> Call Forwarding Fraud</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-network-wired"></i> SS7 Topology</h3>
+                    <div class="topology-viz">
+                        <div class="topo-node stp">STP</div>
+                        <div class="topo-line"></div>
+                        <div class="topo-node msc">MSC</div>
+                        <div class="topo-line"></div>
+                        <div class="topo-node hlr">HLR</div>
+                        <div class="topo-line"></div>
+                        <div class="topo-node smsc">SMSC</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Horizontal Geography Section -->
+    <section class="section" id="geography">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-earth-americas"></i>
+                </div>
+                <h2 class="section-title">Horizontal Geography</h2>
+                <p class="section-desc">Geografi Horizontal — Analisis Geospasial, Kartografi, dan Pemetaan Digital</p>
+            </div>
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3><i class="fas fa-map"></i> Konsep Dasar</h3>
+                    <p>Geografi horizontal mempelajari distribusi fenomena di permukaan bumi — dari pola pemukiman, jaringan transportasi, hingga sebaran infrastruktur telekomunikasi.</p>
+                    <ul class="geo-list">
+                        <li><strong>Latitude & Longitude</strong> — Sistem koordinat geografis</li>
+                        <li><strong>Topografi</strong> — Relief dan kontur permukaan bumi</li>
+                        <li><strong>Kartografi Digital</strong> — Pembuatan peta interaktif</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-globe"></i> Aplikasi Modern</h3>
+                    <p>Integrasi GIS dengan teknologi modern untuk analisis spasial tingkat lanjut.</p>
+                    <div class="geo-apps">
+                        <div class="geo-app-item">
+                            <i class="fas fa-satellite"></i>
+                            <span>Remote Sensing</span>
+                        </div>
+                        <div class="geo-app-item">
+                            <i class="fas fa-route"></i>
+                            <span>Network Analysis</span>
+                        </div>
+                        <div class="geo-app-item">
+                            <i class="fas fa-mountain"></i>
+                            <span>DEM Analysis</span>
+                        </div>
+                        <div class="geo-app-item">
+                            <i class="fas fa-city"></i>
+                            <span>Urban Planning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map-visualization">
+                <h3><i class="fas fa-draw-polygon"></i> Koordinat & Grid System</h3>
+                <div class="coord-grid">
+                    <div class="coord-row">
+                        <span class="coord-label">Prime Meridian</span>
+                        <div class="coord-line horiz"></div>
+                    </div>
+                    <div class="coord-row">
+                        <span class="coord-label">Equator</span>
+                        <div class="coord-line vert"></div>
+                    </div>
+                    <div class="coord-row">
+                        <span class="coord-label">UTM Grid</span>
+                        <div class="coord-grid-box">
+                            <div class="grid-cell">N</div>
+                            <div class="grid-cell">E</div>
+                            <div class="grid-cell">S</div>
+                            <div class="grid-cell">W</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quantum Physics Section -->
+    <section class="section section-dark" id="quantum">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-icon">
+                    <i class="fas fa-atom"></i>
+                </div>
+                <h2 class="section-title">Fisika Kuantum</h2>
+                <p class="section-desc">Quantum Mechanics — Dari Superposisi Hingga Entanglement</p>
+            </div>
+            <div class="quantum-grid">
+                <div class="quantum-card quantum-principle">
+                    <div class="quantum-bg">
+                        <i class="fas fa-wave-square"></i>
+                    </div>
+                    <h3>Superposisi</h3>
+                    <p>Sebuah partikel kuantum berada di semua keadaan yang mungkin sekaligus hingga diobservasi. |ψ⟩ = α|0⟩ + β|1⟩</p>
+                    <div class="quantum-math">|ψ⟩ = α|0⟩ + β|1⟩</div>
+                </div>
+                <div class="quantum-card quantum-principle">
+                    <div class="quantum-bg">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>Entanglement</h3>
+                    <p>Dua partikel yang terjerat — pengukuran satu partikel secara instan mempengaruhi pasangannya, tanpa peduli jarak.</p>
+                    <div class="quantum-math">⟨AB⟩ = ⟨ψ|AB|ψ⟩</div>
+                </div>
+                <div class="quantum-card quantum-principle">
+                    <div class="quantum-bg">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Observasi</h3>
+                    <p>Efek pengamat — proses pengukuran menyebabkan collapse fungsi gelombang dari superposisi ke keadaan pasti.</p>
+                    <div class="quantum-math">Δx·Δp ≥ ℏ/2</div>
+                </div>
+                <div class="quantum-card quantum-principle">
+                    <div class="quantum-bg">
+                        <i class="fas fa-tunnel"></i>
+                    </div>
+                    <h3>Quantum Tunneling</h3>
+                    <p>Partikel menembus barrier potensial yang secara klasik tidak mungkin dilalui. Dasar dari scanning tunneling microscope.</p>
+                    <div class="quantum-math">T ≈ e^(-2κL)</div>
+                </div>
+                <div class="quantum-card quantum-principle">
+                    <div class="quantum-bg">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Quantum Computing</h3>
+                    <p>Qubit sebagai unit dasar komputasi kuantum. Gerbang logika kuantum: Hadamard, CNOT, Toffoli untuk komputasi paralel.</p>
+                    <div class="quantum-math">H = 1/√2 [1 1; 1 -1]</div>
+                </div>
+                <div class="quantum-card quantum-principle">
+                    <div class="quantum-bg">
+                        <i class="fas fa-lambda"></i>
+                    </div>
+                    <h3>Fungsi Gelombang</h3>
+                    <p>Persamaan Schrödinger menggambarkan evolusi fungsi gelombang partikel kuantum dalam ruang dan waktu.</p>
+                    <div class="quantum-math">iℏ ∂/∂t |ψ⟩ = Ĥ|ψ⟩</div>
+                </div>
+            </div>
+            <div class="quantum-calculator">
+                <h3><i class="fas fa-calculator"></i> Quantum Probability Calculator</h3>
+                <div class="calc-row">
+                    <div class="calc-group">
+                        <label>Alpha (α)</label>
+                        <input type="range" id="alpha" min="0" max="100" value="70">
+                        <span id="alphaVal">0.7</span>
+                    </div>
+                    <div class="calc-group">
+                        <label>Beta (β)</label>
+                        <input type="range" id="beta" min="0" max="100" value="30">
+                        <span id="betaVal">0.3</span>
+                    </div>
+                </div>
+                <div class="calc-result">
+                    <div class="prob-bar">
+                        <div class="prob-fill prob-0" id="prob0Bar">|0⟩: 49%</div>
+                        <div class="prob-fill prob-1" id="prob1Bar">|1⟩: 9%</div>
+                    </div>
+                    <p id="probText">P(|0⟩) = 49.00% &nbsp; | &nbsp; P(|1⟩) = 9.00%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <i class="fas fa-atom"></i>
+                    <h3>Putra Azari</h3>
+                    <p>Technology & Science Analysis Platform</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#gsm">GSM</a>
+                    <a href="#cloud">Cloud VPS</a>
+                    <a href="#tracking">Tracking</a>
+                    <a href="#ss7">SS7</a>
+                    <a href="#geography">Geography</a>
+                    <a href="#quantum">Quantum</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Topics</h4>
+                    <a href="#">Network Analysis</a>
+                    <a href="#">Security</a>
+                    <a href="#">Geospatial</a>
+                    <a href="#">Quantum Computing</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Putra Azari. Built with <i class="fas fa-heart"></i> for technology & science.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
